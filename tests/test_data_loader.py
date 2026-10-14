@@ -37,3 +37,15 @@ def test_load_labels():
     assert labels
     assert all("message_id" in item for item in labels)
     assert all("expected" in item for item in labels)
+
+
+def test_load_red_flags():
+    data = load_json("red_flags.json")
+
+    assert "common" in data
+    assert "urology" in data
+    assert "orthopedics" in data
+
+    assert data["common"]
+    assert data["urology"]
+    assert data["orthopedics"]
