@@ -1,0 +1,24 @@
+{
+  "common": [
+    "chest pain",
+    "difficulty breathing",
+    "fainted",
+    "unconscious",
+    "seizure",
+    "heavy bleeding",
+    "slurred speech",
+    "sudden weakness on one side"
+  ],
+  "urology": [
+    "unable to pass urine",
+    "blood clots in urine",
+    "severe flank pain with fever",
+    "sudden severe testicular pain"
+  ],
+  "orthopedics": [
+    "numbness in both legs",
+    "loss of bladder control",
+    "bone visible through skin",
+    "cold or blue limb"
+  ]
+}

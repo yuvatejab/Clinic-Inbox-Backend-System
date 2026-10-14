@@ -1,0 +1,15 @@
+{"message_id": "wamid.0001", "expected": {"outcome": "booked", "clinic_id": "clinic_a", "doctor_id": "dr_menon", "slot_start": "2026-11-03T10:00:00+05:30"}}
+{"message_id": "wamid.0002", "expected": {"outcome": "booked", "clinic_id": "clinic_b", "doctor_id": "dr_khan", "slot_start": "2026-11-04T16:00:00+05:30"}}
+{"message_id": "wamid.0003", "expected": {"outcome": "needs_review", "clinic_id": "clinic_b"}}
+{"message_id": "wamid.0004", "expected": {"outcome": "cancelled", "clinic_id": "clinic_b"}}
+{"message_id": "wamid.0005", "expected": {"outcome": "rejected"}}
+{"message_id": "wamid.0007", "expected": {"outcome": "booked", "clinic_id": "clinic_a", "doctor_id": "dr_rao", "slot_start": "2026-11-04T17:00:00+05:30"}}
+{"message_id": "wamid.0008", "expected": {"outcome": "booked", "clinic_id": "clinic_b", "doctor_id": "dr_khan", "slot_start": "2026-11-03T16:00:00+05:30"}}
+{"message_id": "wamid.0011", "expected": {"outcome": "booked", "clinic_id": "clinic_a", "doctor_id": "dr_menon", "slot_start": "2026-11-04T10:00:00+05:30"}}
+{"message_id": "wamid.0012", "expected": {"outcome": "booked", "clinic_id": "clinic_a", "doctor_id": "dr_rao", "slot_start": "2026-11-03T17:00:00+05:30"}}
+{"message_id": "wamid.0016", "expected": {"outcome": "needs_review", "clinic_id": "clinic_b"}}
+{"message_id": "wamid.0018", "expected": {"outcome": "needs_review", "clinic_id": "clinic_a"}}
+{"message_id": "wamid.0019", "expected": {"outcome": "escalated_urgent", "clinic_id": "clinic_a"}}
+{"message_id": "wamid.0020", "expected": {"outcome": "booked", "clinic_id": "clinic_a", "doctor_id": "dr_rao", "slot_start": "2026-11-05T11:00:00+05:30"}}
+{"message_id": "wamid.0028", "expected": {"outcome": "needs_review", "clinic_id": "clinic_b"}}
+{"message_id": "wamid.0029", "expected": {"outcome": "needs_review", "clinic_id": "clinic_a"}}

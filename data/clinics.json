@@ -1,0 +1,214 @@
+{
+  "clinics": [
+    {
+      "clinic_id": "clinic_a",
+      "name": "Sunrise Urology",
+      "specialty": "urology",
+      "whatsapp_number": "+919000000001",
+      "timezone": "Asia/Kolkata",
+      "doctors": [
+        {
+          "doctor_id": "dr_rao",
+          "name": "Dr Meera Rao",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "sessions": {
+            "morning": "10:00-13:00",
+            "evening": "17:00-20:00"
+          },
+          "slot_minutes": 20
+        },
+        {
+          "doctor_id": "dr_menon",
+          "name": "Dr Arjun Menon",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "sessions": {
+            "morning": "10:00-13:00"
+          },
+          "slot_minutes": 20
+        }
+      ],
+      "existing_bookings": [
+        {
+          "appointment_id": "apt_0001",
+          "doctor_id": "dr_rao",
+          "patient_phone": "+919000055555",
+          "slot_start": "2026-11-04T17:20:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0002",
+          "doctor_id": "dr_menon",
+          "patient_phone": "+919000021001",
+          "slot_start": "2026-11-05T10:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0003",
+          "doctor_id": "dr_rao",
+          "patient_phone": "+919000090007",
+          "slot_start": "2026-11-04T10:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0004",
+          "doctor_id": "dr_rao",
+          "patient_phone": "+919000033333",
+          "slot_start": "2026-11-06T17:40:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0005",
+          "doctor_id": "dr_rao",
+          "patient_phone": "+919000071011",
+          "slot_start": "2026-11-05T17:20:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0006",
+          "doctor_id": "dr_rao",
+          "patient_phone": "+919000080004",
+          "slot_start": "2026-11-07T17:00:00+05:30"
+        }
+      ]
+    },
+    {
+      "clinic_id": "clinic_b",
+      "name": "Lakeview Orthopedics",
+      "specialty": "orthopedics",
+      "whatsapp_number": "+919000000002",
+      "timezone": "Asia/Kolkata",
+      "doctors": [
+        {
+          "doctor_id": "dr_khan",
+          "name": "Dr Farah Khan",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "sessions": {
+            "morning": "09:00-12:00",
+            "evening": "16:00-19:00"
+          },
+          "slot_minutes": 30
+        },
+        {
+          "doctor_id": "dr_pillai",
+          "name": "Dr Suresh Pillai",
+          "days": [
+            "tue",
+            "thu",
+            "sat"
+          ],
+          "sessions": {
+            "evening": "16:00-19:00"
+          },
+          "slot_minutes": 30
+        }
+      ],
+      "existing_bookings": [
+        {
+          "appointment_id": "apt_0007",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000044444",
+          "slot_start": "2026-11-06T09:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0008",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000040002",
+          "slot_start": "2026-11-04T09:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0009",
+          "doctor_id": "dr_pillai",
+          "patient_phone": "+919000040002",
+          "slot_start": "2026-11-05T16:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0010",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000061006",
+          "slot_start": "2026-11-07T16:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0011",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000020101",
+          "slot_start": "2026-11-05T16:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0012",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000020102",
+          "slot_start": "2026-11-05T16:30:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0013",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000020103",
+          "slot_start": "2026-11-05T17:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0014",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000020104",
+          "slot_start": "2026-11-05T17:30:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0015",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000020105",
+          "slot_start": "2026-11-05T18:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0016",
+          "doctor_id": "dr_khan",
+          "patient_phone": "+919000020106",
+          "slot_start": "2026-11-05T18:30:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0017",
+          "doctor_id": "dr_pillai",
+          "patient_phone": "+919000020201",
+          "slot_start": "2026-11-07T16:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0018",
+          "doctor_id": "dr_pillai",
+          "patient_phone": "+919000020202",
+          "slot_start": "2026-11-07T16:30:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0019",
+          "doctor_id": "dr_pillai",
+          "patient_phone": "+919000020203",
+          "slot_start": "2026-11-07T17:00:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0020",
+          "doctor_id": "dr_pillai",
+          "patient_phone": "+919000020204",
+          "slot_start": "2026-11-07T17:30:00+05:30"
+        },
+        {
+          "appointment_id": "apt_0021",
+          "doctor_id": "dr_pillai",
+          "patient_phone": "+919000020205",
+          "slot_start": "2026-11-07T18:00:00+05:30"
+        }
+      ]
+    }
+  ]
+}
